@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*more headers goes here*/
-/* betty style doc for function main goes here*/
-/** 
+/*betty style doc for function main goes here*/
+/**
 *main - Entry point
 *Description: prints number and states whether number is negative or positve or 0
 *Return: 0
