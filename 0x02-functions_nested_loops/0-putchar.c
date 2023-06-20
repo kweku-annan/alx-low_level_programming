@@ -1,7 +1,7 @@
 #include <unistd.h>
-/**#include "main.h"*/
+#include "main.h"
 
-int _putchar(char c)
+int __putchar(char c)
 {
   return (write(1, &c, 1));
 }
@@ -13,7 +13,7 @@ int main(void)
   int i;
   for (i=0; message[i] != '\0'; i++)
     {
-      _putchar(message[i]);
+      __putchar(message[i]);
     }
   return (0);
 }
