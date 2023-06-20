@@ -6,8 +6,8 @@
 /**
 *main - Entry point.
 *Description - prints last digit of a number
-* Return - 0
-**/ 
+*Returns - 0
+**/
 int main(void)
 {
 int n;
