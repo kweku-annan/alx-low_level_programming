@@ -2,8 +2,8 @@
 #include "main.h"
 /**
 *___putchar - Prints a character to the standard output
-* @c: The character to be printed
-* Return: On success, returns the character printed. On error, returns -1.
+*c: The character to be printed
+*Return: On success, returns the character printed. On error, returns -1.
 **/
 int __putchar(char c)
 {
