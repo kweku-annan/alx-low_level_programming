@@ -1,5 +1,5 @@
 #include <unistd.h>
-/*#include "main.h"*/
+#include "main.h"
 
 int _putchar(char c)
 {
@@ -16,9 +16,4 @@ int main(void)
       _putchar(message[i]);
     }
   return (0);
-}
-
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
 }
