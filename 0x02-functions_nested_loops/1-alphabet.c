@@ -8,7 +8,7 @@
 */
 int __putchar(char c)
 {
-  return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
 /**
 *print_alphabet - Entry point of the program.
@@ -22,5 +22,5 @@ for (c = 'a'; c <= 'z'; c++)
 {
 __putchar(char c);
 }
-__putchar('\n');
+__putchar((char)'\n');
 }
