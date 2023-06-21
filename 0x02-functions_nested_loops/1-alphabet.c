@@ -16,23 +16,12 @@ return (1);
 *Description: - Prints the alphabets
 *Return: Nothing
 **/
-void print_alphabet(void) {
-char letter = 'a';
-while (letter <= 'z')
-{
-__putchar(letter);
-letter++;
-}
-__putchar('\n');
-}
-/**
 void print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
 {
 __putchar(c);
-__putchar('\n');
 }
+write(1, '\n', 1);
 }
-**/
