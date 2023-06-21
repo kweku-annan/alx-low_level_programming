@@ -11,11 +11,11 @@ int __putchar(char c)
   return (write(1, &c, 1));
 }
 /**
-*main - Entry point of the program.
+*print_alphabet - Entry point of the program.
 *Description: - Prints the alphabets
 *Return: Always 0 (success)
 **/
-int main(void)
+void print_alphabet(void)
 {
 int i, j;
 for (i = 0; i < 10; i++)
@@ -26,5 +26,14 @@ __putchar((char)j);
 }
  __putchar((char)10);
 }
+return (0);
+}
+/**
+*main - Runs print_alphabet()
+*Return: Always 0
+**/
+int main(void)
+{
+print_alphabet();
 return (0);
 }
