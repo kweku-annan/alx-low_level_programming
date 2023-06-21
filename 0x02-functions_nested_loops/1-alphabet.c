@@ -24,15 +24,6 @@ for (j = 97; j <= 122; j++)
 {
 __putchar((char)j);
 }
- __putchar((char)10);
+/*__putchar((char)10);*/
 }
 }
-/**
-*main - Runs print_alphabet()
-*Return: Always 0
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-**/
