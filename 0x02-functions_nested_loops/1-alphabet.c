@@ -17,13 +17,10 @@ int __putchar(char c)
 **/
 void print_alphabet(void)
 {
-int i, j;
-for (i = 0; i < 10; i++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-for (j = 97; j <= 122; j++)
-{
-__putchar((char)j);
+__putchar(char c);
 }
-/*__putchar((char)10);*/
-}
+__putchar('\n');
 }
