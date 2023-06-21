@@ -22,5 +22,5 @@ for (c = 'a'; c <= 'z'; c++)
 {
 __putchar(c);
 }
-__putchar('\n');
+/*__putchar('\n');*/
 }
