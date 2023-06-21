@@ -13,7 +13,7 @@ int __putchar(char c)
 /**
 *print_alphabet - Entry point of the program.
 *Description: - Prints the alphabets
-*Return: Always 0 (success)
+*Return: Nothing
 **/
 void print_alphabet(void)
 {
@@ -26,7 +26,6 @@ __putchar((char)j);
 }
  __putchar((char)10);
 }
-return (0);
 }
 /**
 *main - Runs print_alphabet()
