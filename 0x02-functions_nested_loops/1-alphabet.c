@@ -24,7 +24,7 @@ for (j = 97; j <= 122; j++)
 {
 __putchar((char)j);
 }
-__putchar(char(10));
+ __putchar((char)10);
 }
 return (0);
 }
