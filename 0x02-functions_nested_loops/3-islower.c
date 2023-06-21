@@ -3,7 +3,8 @@
 #include <ctype.h>
 /**
 *_islower(int c) Checks if an input is a lowercase letter
-*Return 1 if true and 0 if false
+*@c: The input character
+*Return: 1 if the character is lowercase, 0 if otherwise
 **/
 int _islower(int c)
 {
@@ -14,4 +15,5 @@ return (1);
 else
 {
 return (0);
+}
 }
