@@ -22,9 +22,9 @@ for (i = 0; i < 10; i++)
 {
 for (j = 97; j <= 122; j++)
 {
-__printchar((char)j);
+__putchar((char)j);
 }
-__printchar("\n");
+__putchar("\n");
 }
 return 0;
 }
