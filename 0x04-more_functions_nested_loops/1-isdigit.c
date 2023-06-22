@@ -1,6 +1,6 @@
 #include "main.h"
 #include <unistd.h>
-#include <cytpe.h>
+#include <ctype.h>
 /**
 *_isdigit - Checks if an input is a digit or not.
 *@c: Input character
