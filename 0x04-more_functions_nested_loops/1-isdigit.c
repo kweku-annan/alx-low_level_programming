@@ -4,7 +4,7 @@
 /**
 *_isdigit - Checks if an input is a digit or not.
 *@c: Input character
-*Returns 1 if c is a digit, 0 if otherwise
+*Return: 1 if c is a digit, 0 if otherwise
 **/
 int _isdigit(int c)
 {

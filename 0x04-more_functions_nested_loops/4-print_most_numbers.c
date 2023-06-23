@@ -2,11 +2,10 @@
 #include <ctype>
 #include <unistd.h>
 /**
-*more_numbers - A function that prints 10 times the numbers, from 0 to 14
-*
+*print_most_numbers - A function that prints 10 times the numbers, from 0 to 14
 *Returns: Nothing.
 **/
-void more_numbers(void)
+void print_most_numbers(void)
 {
 int i, j;
 for (i = 0; i < 10; i++)
