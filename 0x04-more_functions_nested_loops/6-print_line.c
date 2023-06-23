@@ -12,6 +12,7 @@ while (i <= n)
 if (n == 0)
 {
 _putchar('\n');
+return;
 }
 else
 {
