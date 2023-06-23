@@ -1,6 +1,5 @@
 #include "main.h"
 #include <ctype>
-#include <unistd.h>
 /**
 *print_most_numbers - A function that prints 10 times the numbers, from 0 to 14
 *Returns: Nothing.
