@@ -1,0 +1,1 @@
+ALX Projects on Pointers, Arrays and Strings. Proper documentation will follow soon.
