@@ -10,7 +10,7 @@ int op_div(int a, int b);
 *@b: The second input
 *Return: The sum of a and b
 **/
-int _op_add(int a, int b)
+int op_add(int a, int b)
 {
 return (a + b);
 }
