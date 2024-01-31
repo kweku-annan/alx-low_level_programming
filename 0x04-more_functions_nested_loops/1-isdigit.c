@@ -1,19 +1,12 @@
 #include "main.h"
-#include <unistd.h>
-#include <ctype.h>
 /**
-*_isdigit - Checks if an input is a digit or not.
-*@c: Input character
-*Return: 1 if c is a digit, 0 if otherwise
-**/
+ *_isdigit - Checks if @c is a digit
+ *@c: Character to check
+ *Return: 1 if @c is a digit and 0 if not
+ **/
 int _isdigit(int c)
 {
-if (isdigit(c))
-{
+if (c >= 48 && c <= 57)
 return (1);
-}
-else
-{
 return (0);
-}
 }

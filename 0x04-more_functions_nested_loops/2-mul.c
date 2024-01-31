@@ -1,12 +1,11 @@
 #include "main.h"
-#include <unistd.h>
-#include <ctype.h>
 /**
-*mul - A function that multiplies two integers
-*@a: The input number
-*@b: The input number
-*Return: Product of a and b
-**/
+ *mul - Multiplies two integers
+ *@a: first integer
+ *@b: second integer to multplied
+ *Return: Product of two integers
+ **/
+
 int mul(int a, int b)
 {
 return (a * b);
