@@ -19,7 +19,7 @@ struct dog
  * dog_t - A new name for for the type struct dog
  **/
 
-typdef struct dog dog_t;
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
