@@ -1,0 +1,13 @@
+#include "dog.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * print_dog - Prints a struct dog
+ * @d: Struct to print
+ * Return: Nothing
+ **/
+void print_dog(struct dog *d)
+{
+	d = malloc(sizeof(struct dog));
+	if (d == NULL)
+		return;
