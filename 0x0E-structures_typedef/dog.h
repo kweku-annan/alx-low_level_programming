@@ -16,7 +16,7 @@ struct dog
 };
 
 /**
- * dog_t - A new name for for the type struct dog
+ * typedef dog_t - A new name for for the type struct dog
  **/
 
 typedef struct dog dog_t;
