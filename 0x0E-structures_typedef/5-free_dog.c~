@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *free_dog - frees dogs.
+ *@d: dog to free
+ *
+ *Return: Nothing
+ **/
+
+void free_dog(dog_t *d)
+{
+	free(d);
+}
